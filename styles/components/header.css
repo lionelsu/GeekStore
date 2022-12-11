@@ -58,6 +58,7 @@
     line-height: var(--search-fh);
     font-family: var(--font-primary);
     color: var(--text-primary-color);
+    padding: 1.7rem 0;
 }
 
 
