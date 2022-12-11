@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/buttons.css">
     <title>Alura Geek</title>
 </head>
 <body>
-    <header>
-        <section class="header">
-            <div class="header-row">
-                <div class="left-col">
-                    <div class="logo">
-                        <img src="./assets/img/header/logo.svg" alt="logo da Alura Geek">
-                        <img src="./assets/img/header/alura.svg" alt="palavra Alura">
-                        <img src="./assets/img/header/geek.svg" alt="palavra Geek">
-                    </div>
-                    <div class="search-bar">
-                        <div class="search-imput">
-                            <input name="nome" id="nome" class="input" type="text" placeholder="O que deseja encontrar?" data-type="search" required>
+    <main class="main-container">
+        <header class="header">
+            <section class="header-nav">
+                <div class="header-row">
+                    <div class="left-col">
+                        <div class="logo">
+                            <img src="./assets/img/header/logo.svg" alt="logo da Alura Geek">
+                            <img src="./assets/img/header/alura.svg" alt="palavra Alura">
+                            <img src="./assets/img/header/geek.svg" alt="palavra Geek">
                         </div>
-                        <div class="search-img">
-                            <img src="./assets/img/header/lupa.svg" alt="imagem de lupa">
+                        
+                        <div class="search-bar">
+                            <input name="search" id="search" class="search-input" type="text" placeholder="O que deseja encontrar?" data-type="search" required>
+                            <label for="search" class="search-input__label">O que deseja encontrar?</label>
+                            <img class="search-img" src="./assets/img/header/lupa.svg" alt="imagem de lupa">
                         </div>
+                        
                     </div>
+                    <div class="btn-container btn-transparent">Login</div>
                 </div>
-                <div class="right-col">
-                    <button class="btn-login">Login</button>
+            </section>
+            <section class="banner">
+                <div class="banner-info">
+                    <h1>Dezembro Promocional</h1>
+                    <p>Produtos selecionados com 33% de desconto</p>
+                    <button class="btn-promotional">Ver Consoles</button>
                 </div>
-            </div>
-        </section>
-        <section class="banner">
-            <div class="banner-info">
-                <h1>Dezembro Promocional</h1>
-                <p>Produtos selecionados com 33% de desconto</p>
-                <button class="btn-promotional">Ver Consoles</button>
-            </div>
-        </section>
-    </header>
-    <main>
+            </section>
+        </header>
+        
         <section class="product-container">
             <div class="product-row">
                 <h2>Star Wars</h2>
@@ -197,48 +201,48 @@
                 <span class="btn-product">Ver produto</span>
             </div>
         </section>
-    </main>
+    
+        <footer class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <div class="logo">
+                        <img src="./assets/img/header/logo.svg" alt="logo da Alura Geek">
+                        <img src="./assets/img/header/alura.svg" alt="palavra Alura">
+                        <img src="./assets/img/header/geek.svg" alt="palavra Geek">
+                    </div>
 
-    <footer class="footer-container">
-        <div class="footer-row">
-            <div class="footer-col">
-                <div class="logo">
-                    <img src="./assets/img/header/logo.svg" alt="logo da Alura Geek">
-                    <img src="./assets/img/header/alura.svg" alt="palavra Alura">
-                    <img src="./assets/img/header/geek.svg" alt="palavra Geek">
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Política de privacidade</a></li>
+                        <li><a href="#">Programa fidelidade</a></li>
+                        <li><a href="#">Nossas lojas</a></li>
+                        <li><a href="#">Quero ser franqueado</a></li>
+                        <li><a href="#">Anuncie aqui</a></li>
+                    </ul>
+
+                    <form class="form-container" action="#">
+                        <fieldset>
+                            <legend class="form__legend">Fale conosco</legend>
+                            <div class="form-inputs">
+                                <div class="input-container">
+                                    <input name="name" id="name" class="input" type="text" placeholder="Nome" data-type="name" required>
+                                    <label class="input-label" for="name">Nome</label>
+                                    <span class="input-error-message">Este campo não esta válido</span>
+                                </div>
+
+                                <div class="input-container">
+                                    <textarea name="message" id="message" class="input" type="text" placeholder="Escreva sua mensagem" data-type="message" cols="30" rows="10" required></textarea>
+                                    <label class="input-label" for="message">Mensagem</label>
+                                    <span class="input-error-message">Este campo não esta válido</span>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <button class="btn-submit" type="submit">Enviar mensagem</button>
+                    </form>
                 </div>
-
-                <ul>
-                    <li><a href="#">Quem somos</a></li>
-                    <li><a href="#">Política de privacidade</a></li>
-                    <li><a href="#">Programa fidelidade</a></li>
-                    <li><a href="#">Nossas lojas</a></li>
-                    <li><a href="#">Quero ser franqueado</a></li>
-                    <li><a href="#">Anuncie aqui</a></li>
-                </ul>
-
-                <form class="form-container" action="#">
-                    <fieldset>
-                        <legend class="form__legend">Fale conosco</legend>
-                        <div class="form-inputs">
-                            <div class="input-container">
-                                <input name="name" id="name" class="input" type="text" placeholder="Nome" data-type="name" required>
-                                <label for="input-label" for="name">Nome</label>
-                                <span class="input-error-message">Este campo não esta válido</span>
-                            </div>
-
-                            <div class="input-container">
-                                <textarea name="message" id="message" class="input" type="text" placeholder="Escreva sua mensagem" data-type="message" cols="30" rows="10" required></textarea>
-                                <label for="input-label" for="message">Mensagem</label>
-                                <span class="input-error-message">Este campo não esta válido</span>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <button class="btn-submit" type="submit">Enviar mensagem</button>
-                </form>
             </div>
-        </div>
-        <span class="footer-end">Desenvolvido por Lionel 2022</span>
-    </footer>
+            <span class="footer-end">Desenvolvido por Lionel 2022</span>
+        </footer>
+    </main>
 </body>
 </html>

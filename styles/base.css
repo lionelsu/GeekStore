@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-color: rgba(229,229,229,1);
+    --bg-primary-color: rgba(255,255,255,1);
+    --bg-secondary-color: rgba(234,242,253,1);
+    --bg-input-color: rgba(245,245,245,1);
+    --bg-form-color: rgba(255,255,255,1);
+
+    /*search bar vars*/
+    --search-fs: 1.4rem;
+    --search-fh: 1.6rem;
+    --input-ph-text-color: rgba(162,162,162,1);
+    /*end of search bar vars*/
+
+    --font-primary: 'Raleway', sans-serif;
+
+    --text-primary-color: rgba(70,70,70,1);
+    --text-secondary-color: rgba(255,255,255,1);
+    --text-links-color: rgba(42,122,228,1);
+
+    --form-holder-color: rgba(162,162,162,1);
+
+    /*button vars*/
+    --btn-primary-color: rgba(42,122,228,1);
+    --btn-secondary-color: rgba(42,122,228,0);
+    --btn-primary-text-color: rgba(255,255,255,1);
+    --btn-secondary-text-color: rgba(42,122,228,1);
+    --btn-fs: 1.6rem;
+    --btn-fh: 2.0rem;
+
+    --btn-primary-hover-color: rgba(85,149,233,1);
+    --btn-secondary-hover-color: rgba(212,228,250,1);
+    /*end of button vars*/
+}
+
+body {
+    font-size: 1.6rem;
+
+    position: relative;
+    background: var(--bg-color);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 6.4rem;
+}
