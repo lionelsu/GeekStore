@@ -16,7 +16,7 @@
 
 .header-row {
     width: 100%;
-    max-width: 113.6rem;
+    max-width: var(--full-center-width);
     display: flex;
     flex-direction: row;
     align-items: center;

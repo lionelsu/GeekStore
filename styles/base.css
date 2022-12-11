@@ -18,6 +18,15 @@
     --input-ph-text-color: rgba(162,162,162,1);
     /*end of search bar vars*/
 
+    /*banner vars*/
+    --banner-fw: 700;
+    --banner-primary-fs: 5.2rem;
+    --banner-primary-fh: 6.1rem;
+
+    --banner-secondary-fs: 22px;
+    --banner-secondary-fh: 26px;
+    /*end of banner vars*/
+
     --font-primary: 'Raleway', sans-serif;
 
     --text-primary-color: rgba(70,70,70,1);
@@ -37,6 +46,8 @@
     --btn-primary-hover-color: rgba(85,149,233,1);
     --btn-secondary-hover-color: rgba(212,228,250,1);
     /*end of button vars*/
+
+    --full-center-width: 113.6rem;
 }
 
 body {
