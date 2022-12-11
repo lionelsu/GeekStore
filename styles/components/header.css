@@ -39,7 +39,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: .8rem 1.6rem;
+    padding: .8rem 0 .8rem 1.6rem;
     gap: .8rem;
 
     width: 100%;
@@ -83,4 +83,9 @@
     font-size: 1.25rem;
     top: .25rem;
     transition: all .25s;
+}
+
+.search-img {
+    padding: 1.0rem 1.6rem 1.0rem 1.6rem;
+    cursor: pointer;
 }

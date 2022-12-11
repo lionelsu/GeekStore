@@ -8,6 +8,8 @@
     padding: 1.6rem;
     font-size: var(--btn-fs);
     line-height: var(--btn-fh);
+    border: none;
+    background: none;
 
     font-family: var(--font-primary);
     cursor: pointer;
