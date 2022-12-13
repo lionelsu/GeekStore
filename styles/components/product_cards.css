@@ -1,0 +1,34 @@
+.product-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+    gap: 1.6rem;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem;
+}
+
+.product-card__name {
+    font-family: var(--font-primary);
+    font-size: var(--product-primary-fs);
+    line-height: var(--product-primary-fh);
+    font-weight: var(--font-weight5);
+    color: var(--text-product-cat-color);
+}
+
+.product-card__price {
+    font-family: var(--font-primary);
+    font-size: var(--product-secondary-fs);
+    font-weight: var(--font-weight7);
+    color: var(--text-product-cat-color);
+}
+
+.product-card__link {
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight7);
+    color: var(--text-links-color);
+    cursor: pointer;
+}

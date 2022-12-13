@@ -64,7 +64,7 @@
 
 .search-input::placeholder {
     visibility: hidden;
-    color: var(--input-ph-text-color);
+    color: var(--text-input-ph-color);
 }
 
 .search-input:focus {
@@ -76,7 +76,7 @@
     top: 1.8rem;
     left: 1.6rem;
     font-size: var(--search-fs);
-    color: var(--input-ph-text-color);
+    color: var(--text-input-ph-color);
     transition: all .25s;
 }
 

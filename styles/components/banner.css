@@ -6,7 +6,7 @@
     align-items: center;
     padding: 3.2rem;
     height: 35.2rem;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(/assets/img/banner/banner_nsplash.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(https://lionelsu.github.io/GeekStore/assets/img/banner/banner_nsplash.jpg);
 
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 
 .banner-info h1 {
     font-family: var(--font-primary);
-    font-weight: var(--banner-fw);
+    font-weight: var(--font-weight7);
     font-size: var(--banner-primary-fs);
     line-height: var(--banner-primary-fh);
     
@@ -34,7 +34,7 @@
 
 .banner-info p {
     font-family: var(--font-primary);
-    font-weight: var(--banner-fw);
+    font-weight: var(--font-weight7);
     font-size: var(--banner-secondary-fs);
     line-height: var(--banner-secondary-fh);
     

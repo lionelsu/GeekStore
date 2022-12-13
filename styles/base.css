@@ -6,34 +6,51 @@
 
 :root {
     font-size: 62.5%;
+    --font-primary: 'Raleway', sans-serif;
+    --font-weight7: 700;
+    --font-weight5: 500;
+
+    /*width vars*/
+    --full-center-width: 113.6rem;
+    /*end of width vars*/
+
     --bg-color: rgba(229,229,229,1);
     --bg-primary-color: rgba(255,255,255,1);
     --bg-secondary-color: rgba(234,242,253,1);
     --bg-input-color: rgba(245,245,245,1);
     --bg-form-color: rgba(255,255,255,1);
 
-    /*search bar vars*/
-    --search-fs: 1.4rem;
-    --search-fh: 1.6rem;
-    --input-ph-text-color: rgba(162,162,162,1);
-    /*end of search bar vars*/
-
-    /*banner vars*/
-    --banner-fw: 700;
-    --banner-primary-fs: 5.2rem;
-    --banner-primary-fh: 6.1rem;
-
-    --banner-secondary-fs: 22px;
-    --banner-secondary-fh: 26px;
-    /*end of banner vars*/
-
-    --font-primary: 'Raleway', sans-serif;
-
     --text-primary-color: rgba(70,70,70,1);
     --text-secondary-color: rgba(255,255,255,1);
     --text-links-color: rgba(42,122,228,1);
+    --text-product-cat-color: rgba(70, 70, 70, 0.84);
 
-    --form-holder-color: rgba(162,162,162,1);
+    --form-ph-color: rgba(162,162,162,1);
+
+    /*search bar vars*/
+    --search-fs: 1.4rem;
+    --search-fh: 1.6rem;
+    --text-input-ph-color: rgba(162,162,162,1);
+    /*end of search bar vars*/
+
+    /*banner vars*/
+    --banner-primary-fs: 5.2rem;
+    --banner-primary-fh: 6.1rem;
+
+    --banner-secondary-fs: 2.2rem;
+    --banner-secondary-fh: 2.6rem;
+    /*end of banner vars*/
+
+    /*product container vars*/
+    --product-category-fs: 3.2rem;
+    --product-category-fh: 3.8rem;
+    /*end of product container vars*/
+
+    /*product card*/
+    --product-primary-fs: 1.4rem;
+    --product-primary-fh: 1.6rem;
+    --product-secondary-fs: 1.6rem;
+    /*end of product card*/
 
     /*button vars*/
     --btn-primary-color: rgba(42,122,228,1);
@@ -46,8 +63,6 @@
     --btn-primary-hover-color: rgba(85,149,233,1);
     --btn-secondary-hover-color: rgba(212,228,250,1);
     /*end of button vars*/
-
-    --full-center-width: 113.6rem;
 }
 
 body {

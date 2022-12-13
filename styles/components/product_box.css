@@ -1,0 +1,36 @@
+.product-container {
+    width: 100%;
+    max-width: var(--full-center-width);
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.product-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-row h2 {
+    font-family: var(--font-primary);
+    font-size: var(--product-category-fs);
+    font-weight: var(--font-weight7);
+    line-height: var(--product-category-fh);
+    color: var(--text-product-cat-color);
+}
+
+.btn-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: .8rem;
+}
+
+.btn-more span {
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight7);
+    color: var(--text-links-color);
+}
