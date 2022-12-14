@@ -1,0 +1,13 @@
+.footer-end {
+    width: 100%;
+    background: var(--bg-form-color);
+    text-align: center;
+    padding: 3.2rem;
+}
+
+.footer-end span {
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight5);
+    font-size: var(--form-fs);
+    color: var(--text-list-product-cat-color);
+}
