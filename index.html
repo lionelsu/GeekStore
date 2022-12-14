@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./styles/components/banner.css">
     <link rel="stylesheet" href="./styles/components/product_box.css">
     <link rel="stylesheet" href="./styles/components/product_cards.css">
+    <link rel="stylesheet" href="./styles/components/footer_container.css">
+    <link rel="stylesheet" href="./styles/components/form_container.css">
     <title>Alura Geek</title>
 </head>
 <body>
@@ -220,7 +222,7 @@
                         <img src="./assets/img/header/geek.svg" alt="palavra Geek">
                     </div>
 
-                    <ul>
+                    <ul class="footer-links">
                         <li><a href="#">Quem somos</a></li>
                         <li><a href="#">Política de privacidade</a></li>
                         <li><a href="#">Programa fidelidade</a></li>
@@ -229,28 +231,30 @@
                         <li><a href="#">Anuncie aqui</a></li>
                     </ul>
 
-                    <form class="form-container" action="#">
-                        <fieldset>
+                    <form action="#">
+                        <fieldset class="form-container">
                             <legend class="form__legend">Fale conosco</legend>
-                            <div class="form-inputs">
-                                <div class="input-container">
-                                    <input name="name" id="name" class="input" type="text" placeholder="Nome" data-type="name" required>
-                                    <label class="input-label" for="name">Nome</label>
-                                    <span class="input-error-message">Este campo não esta válido</span>
-                                </div>
+                                <div class="form-inputs">
+                                    <div class="input-container">
+                                        <input name="name" id="name" class="input" type="text" placeholder="Nome" data-type="name" required>
+                                        <label class="input-label" for="name">Nome</label>
+                                        <span class="input-error-message">Este campo não esta válido</span>
+                                    </div>
 
-                                <div class="input-container">
-                                    <textarea name="message" id="message" class="input" type="text" placeholder="Escreva sua mensagem" data-type="message" cols="30" rows="10" required></textarea>
-                                    <label class="input-label" for="message">Mensagem</label>
-                                    <span class="input-error-message">Este campo não esta válido</span>
+                                    <div class="input-container">
+                                        <textarea name="message" id="message" class="input" type="text" placeholder="Escreva sua mensagem" data-type="message" cols="60" rows="2" required></textarea>
+                                        <label class="input-label" for="message">Escreva sua mensagem</label>
+                                        <span class="input-error-message">Este campo não esta válido</span>
+                                    </div>
                                 </div>
-                            </div>
+                            <button class="btn-container btn-blue" type="submit">Enviar mensagem</button>
                         </fieldset>
-                        <button class="btn-submit" type="submit">Enviar mensagem</button>
                     </form>
                 </div>
             </div>
-            <span class="footer-end">Desenvolvido por Lionel 2022</span>
+            <div class="footer-end">
+                <span>Desenvolvido por Lionel 2022</span>
+            </div>
         </footer>
     </main>
 </body>

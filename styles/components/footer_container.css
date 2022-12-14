@@ -1,3 +1,43 @@
 .footer-container {
-    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-secondary-color);
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.4rem;
+}
+
+.footer-col {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: var(--full-center-width);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+
+    font-family: var(--font-primary);
+    font-size: var(--list-primary-fs);
+    font-weight: var(--font-weight5);
+    color: var(--text-list-product-cat-color);
+    list-style: none;
+}
+
+.footer-links li a:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.footer-links li a:visited {
+    text-decoration: inherit;
+    color: inherit;
 }

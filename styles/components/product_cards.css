@@ -16,14 +16,14 @@
     font-size: var(--product-primary-fs);
     line-height: var(--product-primary-fh);
     font-weight: var(--font-weight5);
-    color: var(--text-product-cat-color);
+    color: var(--text-list-product-cat-color);
 }
 
 .product-card__price {
     font-family: var(--font-primary);
     font-size: var(--product-secondary-fs);
     font-weight: var(--font-weight7);
-    color: var(--text-product-cat-color);
+    color: var(--text-list-product-cat-color);
 }
 
 .product-card__link {
