@@ -73,6 +73,10 @@
     /*end of form vars*/
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
 

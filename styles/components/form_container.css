@@ -69,3 +69,42 @@
 .input-error-message {
     visibility: hidden;
 }
+
+.footer-mediaq {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .footer-col .logo, .footer-col .footer-links {
+        display: none;
+    }
+
+    .footer-mediaq {
+        display: flex;
+        flex-direction: column;
+        width: 25.4rem;
+        gap: 1.6rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer-mediaq {
+        display: none;
+    }
+
+    .footer-col .logo, .footer-col .footer-links {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+    }
+
+    .footer-links {
+        margin-bottom: 1.6rem;
+    }
+}
