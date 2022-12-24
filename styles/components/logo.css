@@ -3,3 +3,26 @@
     flex-wrap: wrap;
     align-items: center;
 }
+
+@media (max-width: 767px) {
+    .logo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .logo img:nth-child(1) {
+        height: 2.8rem;
+        width: 2.8rem;
+    }
+
+    .logo img:nth-child(2) {
+        height: 1.0rem;
+        width: 3.5rem;
+    }
+
+    .logo img:nth-child(3) {
+        height: 1.0rem;
+        width: 3.5rem;
+    }
+}

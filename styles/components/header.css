@@ -92,9 +92,23 @@
     cursor: pointer;
 }
 
+.search-barq {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .search-bar {
         width: 100%;
         max-width: 27.2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .search-bar {
+        display: none;
+    }
+
+    .search-barq {
+        display: block;
     }
 }

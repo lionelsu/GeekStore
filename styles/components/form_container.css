@@ -87,7 +87,7 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 425px) {
     .footer-mediaq {
         display: none;
     }
@@ -106,5 +106,12 @@
 
     .footer-links {
         margin-bottom: 1.6rem;
+    }
+    
+    .footer-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .9rem;
     }
 }
