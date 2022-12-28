@@ -1,0 +1,54 @@
+.products-info {
+    display: flex;
+    width: 100%;
+    max-width: 113.6rem;
+    gap: 1.6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: .8rem;
+}
+
+.products-image {
+    width: 100%;
+    max-width: 56.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 40.2rem;
+    background: url(/assets/img/products/star_wars/cristina-hernandez.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.products-info-col {
+    display: flex;
+    flex-direction: column;
+    max-width: 56.0rem;
+    gap: .8rem;
+}
+
+.product-info__name {
+    font-family: var(--font-primary);
+    font-size: var(--pinfo-fs);
+    line-height: var(--form-product-fh);
+    font-weight: var(--font-weight5);
+    color: var(--text-list-product-cat-color);
+}
+
+.product-info__price {
+    font-family: var(--font-primary);
+    font-size: var(--product-secondary-fs);
+    font-weight: var(--font-weight7);
+    color: var(--text-list-product-cat-color);
+}
+
+.product-info__description {
+    font-family: var(--font-primary);
+    font-size: var(--product-secondary-fs);
+    font-weight: var(--font-weight4);
+    color: var(--text-list-product-cat-color);
+}

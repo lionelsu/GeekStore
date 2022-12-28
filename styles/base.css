@@ -70,7 +70,14 @@
 
     /*form vars*/
     --form-fs: 1.6rem;
+    --form-product-fs: 3.2rem;
+    --form-product-fh: 3.8rem;
     /*end of form vars*/
+
+    /*product info vars*/
+    --pinfo-fs: 5.2rem;
+    --form-product-fh: 6.2rem;
+    /*end of product info vars*/
 }
 
 html {
